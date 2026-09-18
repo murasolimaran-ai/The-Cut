@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-deep-black: #0B0B0B;
+    --color-champagne-gold: #D6A85F;
+    --color-warm-white: #F5F2EA;
+    --font-serif: "Cormorant Garamond", Georgia, serif;
+    --font-sans: "Manrope", sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background-color: #0B0B0B;
+    color: #F5F2EA;
+    font-family: "Manrope", sans-serif;
+  }
+
+  body {
+    overflow-x: hidden;
+    background-color: #0B0B0B;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: "Cormorant Garamond", Georgia, serif;
+  }
+}
+
+/* Luxury scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0B0B0B;
+}
+::-webkit-scrollbar-thumb {
+  background: #222222;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D6A85F;
+}
+
+/* Subtle image zoom transition */
+.img-luxury-zoom {
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.group:hover .img-luxury-zoom {
+  transform: scale(1.05);
+}

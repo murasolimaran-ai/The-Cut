@@ -1,0 +1,6 @@
+{
+  "name": "THE CUT | Premium Men's Salon & Grooming Studio",
+  "description": "Precision haircuts, beard styling, skin care and luxury grooming experiences designed around your personal style. Style. Grooming. Confidence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
