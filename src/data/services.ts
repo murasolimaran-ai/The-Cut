@@ -93,7 +93,7 @@ export const servicesData: ServiceItem[] = [
     description: 'Gentle exfoliation, steam extraction, pore cleanse, and hydrating botanical mask.',
     price: 499,
     duration: '40 min',
-    image: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=80',
+    image: 'https://plus.unsplash.com/premium_photo-1720350577926-36d5ae0c97b4?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     featured: false,
   },
   {
